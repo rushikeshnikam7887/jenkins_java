@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY app.java .
 
-RUN javac App.java
+RUN javac app.java
 
-CMD ["java", "App"]
+CMD ["java", "app"]
